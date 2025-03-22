@@ -1,0 +1,58 @@
+<ol>
+    <li>Manzana</li>
+    <li>Banana</li>
+    <li>Naranja</li>
+    <li>Uva</li>
+</ol>
+<style>
+    ol li:nth-child(odd) {
+        background-color: #ffcccb; /* Fondo rosa claro */
+    }
+</style>
+
+<ul>
+    <li>Lunes</li>
+    <li>Martes</li>
+    <li>Miércoles</li>
+    <li>Jueves</li>
+</ul>
+<style>
+    ul li:nth-child(even) {
+        background-color: #add8e6; /* Fondo azul claro */
+    }
+</style>
+<div class="dias">
+    <span>Lunes</span>
+    <span>Martes</span>
+    <span>Miércoles</span>
+</div>
+<style>
+    .dias span:first-child {
+        font-weight: bold;
+    }
+    .dias span:last-child {
+        color: green;
+    }
+</style>
+<div class="contenido">
+    <p>Este es el primer párrafo.</p>
+    <p>Este es el segundo párrafo.</p>
+    <p>Este es el tercer párrafo.</p>
+</div>
+<style>
+    .contenido p:not(:first-child) {
+        font-size: 0.9em;
+        color: gray;
+    }
+</style>
+<ul class="frutas">
+    <li>Manzana</li>
+    <li>Banana</li>
+    <li>Naranja</li>
+    <li>Uva</li>
+</ul>
+<style>
+    .frutas li:nth-child(3) {
+        color: orange;
+    }
+</style>

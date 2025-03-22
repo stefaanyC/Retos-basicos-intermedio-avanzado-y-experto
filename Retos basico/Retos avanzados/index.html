@@ -1,0 +1,67 @@
+<button disabled>Guardar</button>
+<button>Editar</button>
+<style>
+    button:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+</style>
+
+
+<ul>
+    <li>Elemento 1</li>
+    <li></li>
+    <li>Elemento 3</li>
+</ul>
+<style>
+    li:empty {
+        display: none;
+    }
+</style>
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Edad</td>
+    </tr>
+    <tr>
+        <td>Carlos</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Laura</td>
+        <td>32</td>
+    </tr>
+</table>
+<style>
+    tr td:last-child {
+        background-color: #ffebcd; /* Fondo melón */
+    }
+</style>
+
+<table>
+    <tr><td>Fila 1</td></tr>
+    <tr><td>Fila 2</td></tr>
+    <tr><td>Fila 3</td></tr>
+    <tr><td>Fila 4</td></tr>
+    <tr><td>Fila 5</td></tr>
+</table>
+<style>
+    tr:nth-child(n+4):nth-child(even) {
+        background-color: #f0f0f0;
+    }
+</style>
+
+<ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+</ul>
+<style>
+    li:not(:last-child) {
+        border-bottom: 1px solid #ccc;
+    }
+</style>
+
+
+

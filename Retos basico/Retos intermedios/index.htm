@@ -1,0 +1,65 @@
+<form>
+    <input type="text" placeholder="Nombre" required>
+    <input type="email" placeholder="Email" required>
+    <input type="text" placeholder="Opcional">
+</form>
+<style>
+    input:required {
+        border: 2px solid #f59ff7;
+    }
+</style>
+
+<a href="#visitado">Enlace Visitado</a>
+<a href="#no-visitado">Enlace No Visitado</a>
+<style>
+    a:visited {
+        color: purple;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Edad</td>
+    </tr>
+    <tr>
+        <td>Juan</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Ana</td>
+        <td>30</td>
+    </tr>
+</table>
+<style>
+    tr td:nth-child(2) {
+        background-color: #d38ff2; /* Fondo azul claro */
+    }
+</style>
+
+<div>
+    <p>Este es un párrafo con un <a href="#">enlace</a>.</p>
+    <p>Este es un párrafo sin enlace.</p>
+</div>
+<style>
+    p:has(a) {
+        border-left: 3px solid rgb(253, 114, 204);
+        padding-left: 10px;
+    }
+</style>
+
+<div class="productos">
+    <div>Producto 1</div>
+    <div>Producto 2</div>
+    <div>Producto 3</div>
+    <div>Producto 4</div>
+</div>
+<style>
+    .productos div:nth-child(odd) {
+        background-color: #bd32ab;
+    }
+</style>
+
